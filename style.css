@@ -1,0 +1,141 @@
+*{
+    font-family: 'Crimson Text', serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+
+    align-content: center;
+    z-index: 2;
+}
+
+
+.spam{
+    align-self: center;
+    text-decoration: underline;
+    height: 50px;
+}
+
+.stick{
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+
+.menu{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.search{
+    text-align: center;
+}
+
+.logo{
+    height: 50px;
+}
+
+input{
+    height: 40px;
+    width: 40%;
+    text-align: center;
+}
+
+.place {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.conjunto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.local{
+    height: 25%;
+    width: 25%;
+}
+
+.more{
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.casa{
+    height: 1500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+#favorite{
+    position: relative;
+    top: 2.5%;
+    left: 85%;
+    color: red;
+    width: 25px;
+
+}
+
+img{
+    height: 250px;
+    border-radius: 4%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.next{
+    position: relative;
+    bottom: 2%;
+    left: 50%;
+    margin: 0px;
+    padding: 0%;
+    width: 25px;
+    scale: 120%;
+    color: white;
+}
+
+.lugar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0%;
+
+}
+
+
+button{
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+    border: none;
+    
+}
